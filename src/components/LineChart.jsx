@@ -77,7 +77,7 @@ export default function Chart({ newData }) {
   return (
        <>
        {(
-          <div className="flex justify-center">
+          <div className="flex md:justify-center">
             <button
               className="bg-green-500 hover:bg-green-700 text-white font-bold  px-2 rounded"
               onClick={calc}
